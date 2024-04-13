@@ -15,27 +15,27 @@ const NavbarPro = () => {
           <div className="item-header-top">
             <p>Teléfono</p>
             <a 
-              href="tel:5652700762" 
+              href="tel:5529484701" 
               target="_blank"
               rel="noopener noreferrer"  
             >
-              5652700762
+              5529484701
             </a>
           </div>
           <div className="item-header-top whatsapp">
             <p>WhatsApp</p>
             <a
-              href="https://api.whatsapp.com/send?phone=525652700762"
+              href="https://api.whatsapp.com/send?phone=525529484701"
               target="_blank"
               rel="noopener noreferrer"
             >
-              5652700762
+              5529484701
             </a>
           </div>
           <div className="urgencias item-header-top">
             <div className="btn-urgencias">
               <a
-                href="https://api.whatsapp.com/send?phone=525652700762"
+                href="https://api.whatsapp.com/send?phone=525529484701"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -101,7 +101,7 @@ const NavbarPro = () => {
                 Ubicación
               </Link>
               <a
-                href="https://api.whatsapp.com/send?phone=525652700762"
+                href="https://api.whatsapp.com/send?phone=525529484701"
                 target="_blank"
                 className="agendar menu-link nav-contacto"
                 onClick={() => isOpenMenu(false)}
@@ -111,7 +111,7 @@ const NavbarPro = () => {
               </a>
               <div className="btn-urgencias">
               <a
-                href="https://api.whatsapp.com/send?phone=525652700762"
+                href="https://api.whatsapp.com/send?phone=525529484701"
                 target="_blank"
                 rel="noopener noreferrer"
               >

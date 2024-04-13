@@ -37,12 +37,12 @@ export const ButtonFixed = () => {
   return (
     <div className={`container-fixed animado ${show ? "show" : ""}`}>
       <div className="tel-fixed">
-      <a href="tel:5652700762" target="_blank" rel="noopener noreferrer">
+      <a href="tel:5529484701" target="_blank" rel="noopener noreferrer">
         <img src={tel} alt="Icono Teléfono" />
       </a>
       </div>
       <div className="urgencias-fixed">
-        <a href="https://api.whatsapp.com/send?phone=525652700762" target="_blank" rel="noopener noreferrer">
+        <a href="https://api.whatsapp.com/send?phone=525529484701" target="_blank" rel="noopener noreferrer">
           <img src={whats} alt="Icono WhatsApp" />
         </a>
       </div>

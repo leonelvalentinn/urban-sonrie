@@ -13,7 +13,7 @@ const Footer = () => {
                 Juárez, 03200 Ciudad de México, CDMX
               </h3>
               <a
-                href="https://api.whatsapp.com/send?phone=525652700762"
+                href="https://api.whatsapp.com/send?phone=525529484701"
                 target="_blank"
                 className="btn-rosa"
                 rel="noopener noreferrer"
@@ -43,18 +43,18 @@ const Footer = () => {
             </div>
             <div className="item-footer-footer">
               <a 
-                href="tel:5652700762" 
+                href="tel:5529484701" 
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="fa-solid fa-phone"></i> 5652700762
+                <i className="fa-solid fa-phone"></i> 5529484701
               </a>
               <a
-                href="https://api.whatsapp.com/send?phone=525652700762"
+                href="https://api.whatsapp.com/send?phone=525529484701"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="fa-brands fa-square-whatsapp"></i> 5652700762
+                <i className="fa-brands fa-square-whatsapp"></i> 5529484701
               </a>
             </div>
           </article>

@@ -7,7 +7,7 @@ export const CardModal = ({ title, texto, img }) => {
       <h2>{title} </h2>
       <p>{texto} </p>
       <a
-        href="https://api.whatsapp.com/send?phone=525652700762"
+        href="https://api.whatsapp.com/send?phone=525529484701"
         target="_blank"
         id="btnAncla"
         rel="noopener noreferrer"

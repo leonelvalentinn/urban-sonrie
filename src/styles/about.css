@@ -10,24 +10,28 @@
   align-items: center;
   flex-direction: column;
 }
+
 .container-about {
   width: 90%;
   margin: auto;
   text-align: center;
-  background-color: #3e606f;
+  background-color: #24939b;
   padding: 20px;
 }
+
 .about h2 {
   text-align: center;
   color: #fff;
   font-size: 2em;
 }
+
 .about-slider {
   font-size: 1.2em;
   color: #fff;
   text-align: justify;
   font-weight: 300;
 }
+
 .container-about button {
   background-color: #fff;
   width: 100px;
@@ -43,16 +47,19 @@
   cursor: pointer;
   transition: all 0.2s linear;
 }
+
 .container-about button:hover {
   transition: all 0.2s linear;
-  background-color: #ad5472;
+  background-color: #012c4c;
   color: white;
 }
+
 .selected {
   transition: all 0.2s linear;
-  background-color: #ad5472 !important;
+  background-color: #012c4c !important;
   color: white !important;
 }
+
 .textos {
   width: 100%;
 }
@@ -74,24 +81,28 @@
     align-items: center;
     flex-direction: column;
   }
+
   .container-about {
     width: 80%;
     margin: auto;
     text-align: center;
-    background-color: #3e606f;
+    background-color: #24939b;
     padding: 30px;
   }
+
   .about h2 {
     text-align: center;
     color: #fff;
     font-size: 2em;
   }
+
   .about-slider {
     font-size: 1.5em;
     color: #fff;
     text-align: justify;
     font-weight: 300;
   }
+
   .container-about button {
     background-color: #fff;
     width: 100px;

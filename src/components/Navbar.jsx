@@ -14,33 +14,22 @@ const Navbar = () => {
           <div className="item-header-top">
             <p>Teléfono</p>
             <a 
-              href="tel:5652700762" 
+              href="tel:5529484701" 
               target="_blank"
               rel="noopener noreferrer"  
             >
-              5652700762
+              5529484701
             </a>
           </div>
           <div className="item-header-top whatsapp">
             <p>WhatsApp</p>
             <a
-              href="https://api.whatsapp.com/send?phone=525652700762"
+              href="https://api.whatsapp.com/send?phone=525529484701"
               target="_blank"
               rel="noopener noreferrer"
             >
-              5652700762
+              5529484701
             </a>
-          </div>
-          <div className="urgencias item-header-top">
-            <div className="btn-urgencias">
-              <a
-                href="https://api.whatsapp.com/send?phone=525652700762"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Urgencias Dentales
-              </a>
-            </div>
           </div>
         </div>
         <div className="menu">
@@ -115,7 +104,7 @@ const Navbar = () => {
                 Ubicación
               </Link>
               <a
-                href="https://api.whatsapp.com/send?phone=525652700762"
+                href="https://api.whatsapp.com/send?phone=525529484701"
                 target="_blank"
                 className="agendar menu-link nav-contacto"
                 onClick={() => isOpenMenu(false)}
@@ -123,15 +112,6 @@ const Navbar = () => {
               >
                 Agendar cita
               </a>
-              <div className="btn-urgencias">
-              <a
-                href="https://api.whatsapp.com/send?phone=525652700762"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Urgencias Dentales
-              </a>
-            </div>
             </nav>
             <button className={`btn-menu ${openMenu ? "open" : ""}`} onClick={() => isOpenMenu(!openMenu)}>
               <span></span>

@@ -31,7 +31,7 @@ const Hero = () => {
       <h1>¡Promoción vigente hasta terminar el año!</h1>
       <img src={Promo} alt="" />
       <div className="botones-modal">
-        <a href="https://api.whatsapp.com/send?phone=525652700762" target="_blank" id="btnContacto">Contacto</a>
+        <a href="https://api.whatsapp.com/send?phone=525529484701" target="_blank" id="btnContacto">Contacto</a>
         <Link
             to="promo"
             activeClass="active"

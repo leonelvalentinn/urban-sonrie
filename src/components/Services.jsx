@@ -104,7 +104,7 @@ const Services = () => {
             vea como la imaginas.
           </p>
           <a
-            href="https://api.whatsapp.com/send?phone=525652700762"
+            href="https://api.whatsapp.com/send?phone=525529484701"
             target="_blank"
             rel="noopener noreferrer"
           >
