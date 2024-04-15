@@ -1,8 +1,6 @@
-import "../styles/video.css";
-// import video from "../assets/Somos-dental-sonrix.mp4";
-import poster from "../assets/poster.webp";
-import '@justinribeiro/lite-youtube';
-
+import '../styles/video.css'
+import poster from '../assets/poster.webp'
+import '@justinribeiro/lite-youtube'
 
 const Video = () => {
   const styles = {
@@ -12,22 +10,21 @@ const Video = () => {
     aspectRatio: '16/9'
   }
   return (
-    <div className="video-container">
+    <div className='video-container'>
       <div>
         <h3>Conoce más sobre nosotros</h3>
-        <div className="video">
-          <lite-youtube 
-            videoid="AmsGJr2P4xg"
-            videotitle="Nosotros Somos Dental Sonrix"
+        <div className='video'>
+          <lite-youtube
+            videoid='AmsGJr2P4xg'
+            videotitle='Nosotros Somos Urban Sonríe'
             posterquality={poster}
-            videoplay="Reproducir video"
+            videoplay='Reproducir video'
             style={styles}
-          ></lite-youtube>
+          />
         </div>
-        {/* <video src={video} controls poster={poster}></video> */}
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Video;
+export default Video

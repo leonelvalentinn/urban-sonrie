@@ -1,10 +1,11 @@
 .services {
   width: 100%;
+  margin: 40px 0;
 }
 
 .services .title-services {
   text-align: center;
-  color: #2e2e2e;
+  color: #012c4c;
   font-size: 2.5em;
 }
 
@@ -24,6 +25,7 @@
   box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.7);
   padding: 25px;
   gap: 12px;
+  text-align: center;
 }
 
 .item-services img {
@@ -93,7 +95,7 @@
 }
 
 .container-modal-services h2 {
-  color: #2e2e2e;
+  color: #012c4c;
   font-size: 1.4em;
   padding: 0;
   margin: 12px;
@@ -122,7 +124,7 @@
   margin: 20px auto;
   text-align: center;
   background-color: #fff;
-  color: #2e2e2e;
+  color: #012c4c;
   width: 200px;
   padding: 10px;
   text-decoration: none;
@@ -140,14 +142,14 @@
 
   .services .title-services {
     text-align: center;
-    color: #2e2e2e;
+    color: #012c4c;
     font-size: 2.5em;
   }
 
   .container-services {
     width: 90%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 45px;
     margin: 20px auto;
   }
@@ -213,7 +215,7 @@
     top: 0;
     width: 100%;
     height: 0;
-    background-color: #2e2e2e;
+    background-color: #012c4c;
     text-align: center;
     transition: 0.5s all ease;
     overflow: hidden;
@@ -267,7 +269,7 @@
   }
 
   .container-modal-services h2 {
-    color: #2e2e2e;
+    color: #012c4c;
     font-size: 1.7em;
     padding: 0;
     margin: 12px;
@@ -280,7 +282,7 @@
   }
 
   #btnAncla {
-    background-color: #2e2e2e !important;
+    background-color: #012c4c !important;
     display: block;
     margin: 12px auto;
     width: 200px;
@@ -319,7 +321,7 @@
     margin: 20px auto;
     text-align: center;
     background-color: #fff;
-    color: #2e2e2e;
+    color: #012c4c;
     width: 200px;
     padding: 10px;
     text-decoration: none;
