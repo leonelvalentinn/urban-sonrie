@@ -1,8 +1,8 @@
 .hero {
   width: 100%;
   overflow-x: hidden;
-  height: 70%;
-  height: calc(100vh - 160px);
+  height: 100%;
+
   display: flex;
   position: relative;
 }
@@ -13,7 +13,7 @@
   bottom: 0;
   display: flex;
   justify-content: center;
-  align-items: flex-end; 
+  align-items: flex-end;
 }
 .container-texto-hero {
   width: 90%;
@@ -36,7 +36,7 @@
   font-size: 1.2em;
 }
 .hero img {
-  width: 100%;
+  max-width: 100% !important;
 }
 .img-escritorio {
   display: none;
@@ -50,7 +50,7 @@
     width: 100%;
     overflow-x: hidden;
     height: auto;
-    background-color: black;
+    background-color: #24939b;
     display: flex;
     justify-content: center;
     align-items: center;

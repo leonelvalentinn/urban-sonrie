@@ -1,12 +1,9 @@
 import whats from '../assets/whats.jpg'
 import '../styles/promociones.css'
 import tel from '../assets/telefono.png'
-import etiqueta from '../assets/etiqueta-de-precio.png'
 import { useEffect, useState, useCallback } from 'react'
-import { Link } from 'react-scroll'
 
 export const ButtonFixed = () => {
-  const [openMenu, isOpenMenu] = useState(false)
   const [show, setShow] = useState(false)
   const [y, setY] = useState(document.scrollingElement.scrollHeight)
 
@@ -30,31 +27,18 @@ export const ButtonFixed = () => {
   return (
     <div className={`container-fixed animado ${show ? 'show' : ''}`}>
       <div className='tel-fixed'>
-        <a href='tel:5529484701' target='_blank' rel='noopener noreferrer'>
+        <a href='tel:5535362504' target='_blank' rel='noopener noreferrer'>
           <img src={tel} alt='Icono Teléfono' />
         </a>
       </div>
       <div className='urgencias-fixed'>
-        <a href='https://api.whatsapp.com/send?phone=525529484701' target='_blank' rel='noopener noreferrer'>
+        <a
+          href='https://api.whatsapp.com/send?phone=525529484701'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
           <img src={whats} alt='Icono WhatsApp' />
         </a>
-      </div>
-      <div className='txt-urgencia'>
-        <h4>Urgencias Dentales</h4>
-      </div>
-      <div className='to-promos'>
-        <Link
-          to='promo'
-          activeClass='active'
-          spy
-          smooth
-          offset={-50}
-          duration={500}
-          className='menu-link link-promo'
-          onClick={() => isOpenMenu(false)}
-        >
-          <img src={etiqueta} alt='Etiqueta de descuento' />
-        </Link>
       </div>
     </div>
   )

@@ -1,4 +1,4 @@
-// import React from 'react';
+// import React from 'react'
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import About from '../components/About'
@@ -7,7 +7,7 @@ import Services from '../components/Services'
 import Gallery from '../components/Gallery'
 import BarraContact from '../components/BarraContact'
 import Footer from '../components/Footer'
-import Video from '../components/Video'
+
 import { ButtonFixed } from '../components/ButtonsFixed'
 
 const Home = () => {
@@ -17,7 +17,6 @@ const Home = () => {
       <Hero />
       <Services />
       <About />
-      <Video />
       <Promociones />
       <BarraContact />
       <Gallery />

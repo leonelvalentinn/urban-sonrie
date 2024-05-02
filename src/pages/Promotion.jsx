@@ -1,18 +1,12 @@
-import NavbarPro from '../components/NavbarPro'
-import HeroPromos from '../components/HeroPromos'
-import Promos from '../components/Promos'
-import BarraContact from '../components/BarraContact'
 import Footer from '../components/Footer'
-import HeroMovil from '../components/HeroMovil'
+import Navbar from '../components/Navbar'
+import Promociones from '../components/Promociones'
 
 const Home = () => {
   return (
     <div>
-      <NavbarPro />
-      <HeroMovil />
-      <HeroPromos />
-      <Promos />
-      <BarraContact />
+      <Navbar />
+      <Promociones />
       <Footer />
     </div>
   )

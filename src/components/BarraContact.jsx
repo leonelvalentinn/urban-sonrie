@@ -18,9 +18,9 @@ const BarraContact = () => {
         <div className='item-contact'>
           <h3>Nuestros horarios</h3>
           <div className='sub-item-contact'>
-            <p>Lunes a Sábado </p>
-            <p>9:00 am a 8:00 pm</p>
-            <p>Podemos atender fuera del horario referido con previa cita.</p>
+            <p>Lunes a Viernes </p>
+            <p>10:00 am a 2:00pm y 4:00pm a 8:00pm</p>
+            <p>Sábados de 10:00am a 3:00pm</p>
           </div>
         </div>
       </div>
