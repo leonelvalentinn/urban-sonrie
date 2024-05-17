@@ -23,7 +23,7 @@ const Modal = () => {
         <img src={Promo} alt='Promoción alineadores invisibles' />
         <img src={Promo2} alt='Promoción implante dental' />
       </div>
-      <a href='https://api.whatsapp.com/send?phone=525529484701' target='_blank' rel='noopener noreferrer'>Agenda tu cita</a>
+      <a className='btn-modal' href='https://api.whatsapp.com/send?phone=525529484701' target='_blank' rel='noopener noreferrer'>Agenda tu cita</a>
     </div>
   )
 }

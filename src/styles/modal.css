@@ -65,7 +65,7 @@
   align-items: center;
 }
 
-a {
+.btn-modal {
   width: max-content;
   background-color: white;
   transition: all 0.2s linear;
@@ -76,7 +76,7 @@ a {
   margin-top: 20px;
 }
 
-a:hover {
+.btn-modal:hover {
   transition: all 0.2s linear;
   transform: scale(1.1);
 }
