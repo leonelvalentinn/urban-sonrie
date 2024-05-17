@@ -9,6 +9,7 @@ import BarraContact from '../components/BarraContact'
 import Footer from '../components/Footer'
 
 import { ButtonFixed } from '../components/ButtonsFixed'
+import Modal from '../components/Modal'
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
       <Gallery />
       <Footer />
       <ButtonFixed />
+      <Modal />
     </div>
   )
 }
