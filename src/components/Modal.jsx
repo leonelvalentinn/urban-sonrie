@@ -5,7 +5,7 @@ import '../styles/modal.css'
 
 const Modal = () => {
   const [modalOpen, setModalOpen] = useState(false)
-  
+
   useEffect(() => {
     window.addEventListener('load', () => {
       setModalOpen(true)
