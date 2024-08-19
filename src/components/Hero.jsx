@@ -1,6 +1,6 @@
 import '../styles/hero.css'
-import Foto1 from '../assets/slider-compu.png'
-import HeroMov from '../assets/slider-1.png'
+import Foto1 from '../assets/slider-compu.webp'
+import HeroMov from '../assets/promo-4.webp'
 
 import '../styles/modal.css'
 
